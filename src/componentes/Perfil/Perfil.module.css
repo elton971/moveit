@@ -1,0 +1,27 @@
+.perfil_content{
+    display: flex;
+    align-items: center;
+}
+.perfil_content > img{
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+}
+.perfil_content > div{
+    margin-left: 1.5rem;
+}
+.perfil_content  div strong{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.perfil_content  div p{
+    font-size: 1rem;
+    margin-top:0.5rem;
+}
+.perfil_content div p img{
+    margin-right:0.3rem;
+    width: 1rem;
+    height: 1rem ;
+}

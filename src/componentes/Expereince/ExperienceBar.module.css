@@ -1,0 +1,26 @@
+
+.experience__bar{
+    display: flex;
+    align-items: center;
+ }
+ .experience__bar span{
+     font-size: 1rem;
+ }
+ .experience__bar > div{
+     flex:1;
+     height: 4px;
+     border-radius: 4px;
+     background: rgb(179, 178, 178);
+     margin: 0 1.5rem;
+     position: relative;
+ }
+ .experience__bar__progress{
+     height: 4px;
+     border-radius: 4px;
+     background: rgb(18, 188, 47);
+ }
+ .current_xp{
+     position: absolute;
+     top:12px;
+     transform: translateX(-50%);
+ }

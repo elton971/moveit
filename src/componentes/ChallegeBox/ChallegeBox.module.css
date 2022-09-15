@@ -1,0 +1,119 @@
+.challegeBoxContainer{
+    height:90%;
+
+    background-color: #ffffff;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.405);
+    padding: 1.5rem 2rem;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+.challegeNotActive{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.challegeNotActive strong{
+    
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.challegeNotActive p{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   line-height: 1.4;
+   max-width: 70%;
+   margin-top: 3rem;
+}
+
+.challegeNotActive p img{
+   margin-bottom: 1rem;
+}
+
+.challegeActive{
+     height:100%;
+     
+     display:flex;
+     flex-direction: column;
+
+}
+.challegeActive header{
+    color:blue;
+    
+    font-weight: 600;
+    font-size: 1.25rem;
+
+    padding: 0 2rem 1.5rem;
+    border-bottom: 1px solid grey;
+}
+.challegeActive main{
+    flex:1;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.challegeActive main strong{
+    font-size: 2rem;
+    font-weight: 600;
+    
+    color:black;
+
+    margin:1.5rem 0 1rem;
+}
+.challegeActive main p{
+    line-height: 1.5;
+}
+
+.challegeActive footer{
+    display:grid;
+
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    
+}
+
+.challegeActive footer button{
+    height:3rem;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    border:0;
+    border-radius:5px;
+
+    color: white;
+    
+    font-size: 1rem;
+    font-weight: 600;
+    
+    cursor:pointer;
+    
+    transition: filter 0,2s;
+}
+.challegeActive footer button.challegeFailedButton{
+    background-color: #ff0000;
+}
+.challegeActive footer button.challegeSuccededButton{
+    background-color: green;
+}
+
+.challegeActive footer button:hover{
+    filter: brightness(0.9);
+}
